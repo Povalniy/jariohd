@@ -14,8 +14,8 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 
 public class JarioHD {
-    public static final int DISPLAY_HEIGHT = 480;
-    public static final int DISPLAY_WIDTH = 640;
+    public static final int DISPLAY_HEIGHT = 720;
+    public static final int DISPLAY_WIDTH = 1280;
     public static final Logger LOGGER = Logger.getLogger(JarioHD.class.getName());
  
     private int squareSize;
@@ -32,7 +32,7 @@ public class JarioHD {
         }
     }
  
-    public static void main(){//(String[] args) {
+    public static void main(String[] args) {
         JarioHD main = null;
         try {
             System.out.println("Keys:");
