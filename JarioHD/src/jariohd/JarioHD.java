@@ -32,7 +32,7 @@ public class JarioHD {
         }
     }
  
-    public static void main(String[] args) {
+    public static void main(){//(String[] args) {
         JarioHD main = null;
         try {
             System.out.println("Keys:");
