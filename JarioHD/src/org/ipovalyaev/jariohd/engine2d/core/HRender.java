@@ -13,7 +13,7 @@ import static org.lwjgl.util.glu.GLU.*;
 public class HRender {
     public static void init(){
         try {
-            Display.setDisplayMode(new DisplayMode(1280,720));
+            Display.setDisplayMode(new DisplayMode(HOptions.WINDOW_WIDTH,HOptions.WINDOW_HEIGHT));
             Display.setFullscreen(false);
             Display.setTitle("Hello LWJGL World!");
             Display.create();
@@ -27,11 +27,11 @@ public class HRender {
         glDisable(GL_LIGHTING);
 
         //2D Scene
-        glViewport(0,0,1280,720);
+        glViewport(0,0,HOptions.WINDOW_WIDTH,HOptions.WINDOW_HEIGHT);
  
         glMatrixMode(GL_PROJECTION);
         glLoadIdentity();
-        gluOrtho2D(0.0f,1280,0.0f,720);
+        gluOrtho2D(0.0f,HOptions.WINDOW_WIDTH,0.0f,HOptions.WINDOW_HEIGHT);
         
         glPushMatrix();
             glMatrixMode(GL_MODELVIEW);
