@@ -1,5 +1,7 @@
 package org.ipovalyaev.jariohd.engine2d;
 
+import org.ipovalyaev.jariohd.engine2d.core.HKeyboard;
+import org.ipovalyaev.jariohd.engine2d.core.HMouse;
 import org.ipovalyaev.jariohd.engine2d.core.HRender;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
@@ -30,6 +32,8 @@ public class Engine {
     }
     
     public static void stop(){
+        HMouse.destroy();
+        HKeyboard.destroy();
         HRender.destroy();
     }
 }
