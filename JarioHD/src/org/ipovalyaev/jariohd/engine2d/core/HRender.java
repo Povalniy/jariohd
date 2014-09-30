@@ -1,7 +1,5 @@
 package org.ipovalyaev.jariohd.engine2d.core;
 
-import static jariohd.JarioHD.DISPLAY_HEIGHT;
-import static jariohd.JarioHD.DISPLAY_WIDTH;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.lwjgl.LWJGLException;
