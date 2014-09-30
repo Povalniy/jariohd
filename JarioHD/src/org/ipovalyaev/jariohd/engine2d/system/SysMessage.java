@@ -1,10 +1,11 @@
 package org.ipovalyaev.jariohd.engine2d.system;
 
+import org.ipovalyaev.jariohd.engine2d.core.HOptions;
+
 public class SysMessage {
     
     public static void debugMessage(String mess){
-        //TODO : тут по идее должна быть проверка на DEBUG режим движка
-        if(true){
+        if(HOptions.DEBUG_MODE){
             System.out.println(mess);
         }
     }

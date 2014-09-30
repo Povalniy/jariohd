@@ -32,8 +32,8 @@ public class HRender {
         glMatrixMode(GL_PROJECTION);
         glLoadIdentity();
         gluOrtho2D(0.0f,1280,0.0f,720);
+        
         glPushMatrix();
- 
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
         glPushMatrix();
