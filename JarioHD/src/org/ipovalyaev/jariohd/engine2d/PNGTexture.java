@@ -1,4 +1,4 @@
-package org.ipovalyaev.jariohd.sprite;
+package org.ipovalyaev.jariohd.engine2d;
 
 import java.io.IOException;
 import java.util.logging.Level;
