@@ -38,7 +38,17 @@ public class HRender {
     }
     
     public static void render(){
-        
+        glClear(GL_COLOR_BUFFER_BIT);
+        glLoadIdentity();
+ 
+        //Draw a basic square
+        glColor3f(0.0f,0.5f,0.5f);
+        glBegin(GL_QUADS);
+            glTexCoord2f(0.0f,0.0f); glVertex2f(0.0f,0.0f);
+            glTexCoord2f(1.0f,0.0f); glVertex2f(100.0f,0.0f);
+            glTexCoord2f(1.0f,1.0f); glVertex2f(100.0f,100.0f);
+            glTexCoord2f(0.0f,1.0f); glVertex2f(0.0f,100.0f);
+        glEnd();       
     }
     
     public static void destroy(){

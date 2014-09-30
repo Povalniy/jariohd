@@ -31,7 +31,7 @@ public class JarioHD {
             LOGGER.log(Level.WARNING,ex.toString(),ex);
         }
     }
- 
+ /*
     public static void main(String[] args) {
         JarioHD main = null;
         try {
@@ -54,7 +54,7 @@ public class JarioHD {
             }
         }
     }
- 
+ */
     public JarioHD() {
         squareSize = 100;
         squareX = 0;
