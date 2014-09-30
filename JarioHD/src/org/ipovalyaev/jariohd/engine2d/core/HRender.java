@@ -38,4 +38,12 @@ public class HRender {
             glLoadIdentity();
         glPushMatrix();
     }
+    
+    public static void render(){
+        
+    }
+    
+    public static void destroy(){
+        Display.destroy();
+    }
 }
