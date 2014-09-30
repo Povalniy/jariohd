@@ -1,4 +1,4 @@
-package org.ipovalyaev.jariohd.engine2d;
+package org.ipovalyaev.jariohd.engine2d.base;
 
 import java.io.IOException;
 import java.util.logging.Level;
